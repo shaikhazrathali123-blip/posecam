@@ -585,14 +585,14 @@ export const CameraView: React.FC<CameraViewProps> = ({
               </div>
 
               {/* Pose Guidance Bottom Sheet Trigger */}
-              <button
-                type="button"
-                onClick={() => setShowPoseDrawer(true)}
-                className="w-10 h-10 rounded-full bg-white/[0.08] active:scale-90 flex items-center justify-center text-sky-400 hover:text-sky-300 transition-all cursor-pointer"
-                title="View Pose Guidance"
-              >
-                <Sparkles size={15} />
-              </button>
+           <button
+            type="button"
+            onClick={switchCamera}
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-black/50 border border-white/15 text-white/80 flex items-center justify-center active:scale-95 transition-all cursor-pointer"
+            title="Switch front/rear"
+          >
+            <RefreshCw size={14} className={facingMode === 'user' ? '' : 'rotate-180 transition-transform'} />
+          </button>
             </div>
           </div>
         ) : (
