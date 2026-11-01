@@ -1,0 +1,6 @@
+{
+  "name": "PoseCam",
+  "description": "A premium mobile-first camera app to effortlessly recreate poses with live translucent reference overlays, multi-touch adjustments, and crisp photo capture.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
