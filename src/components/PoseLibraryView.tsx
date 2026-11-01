@@ -203,7 +203,7 @@ export const PoseLibraryView: React.FC<PoseLibraryViewProps> = ({
             </div>
 
             {/* Cues */}
-            {/* <div className="bg-white/[0.04] p-3.5 rounded-2xl border border-white/[0.08]">
+            <div className="bg-white/[0.04] p-3.5 rounded-2xl border border-white/[0.08]">
               <span className="text-xs font-bold text-white/90 block mb-2">
                 Alignment Tips:
               </span>
@@ -215,7 +215,7 @@ export const PoseLibraryView: React.FC<PoseLibraryViewProps> = ({
                   </li>
                 ))}
               </ul>
-            </div> */}
+            </div>
 
             {/* Action Buttons */}
             <div className="grid grid-cols-2 gap-2 mt-1">
